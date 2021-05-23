@@ -1,1 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2021-05-23T02:10:08.297Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.10" etag="tC6xvwJ4O6qFbnaByFBh" type="github"><diagram id="iRtfgNZqP6VTb07brRyI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-23T03:26:30.856Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="AR2VTxbAjQgMt5FxuzGb" version="14.6.10" type="github">
+  <diagram id="iRtfgNZqP6VTb07brRyI" name="Page-1">
+    <mxGraphModel dx="1063" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="94uWy1UIsljqRwQZFLVF-1" value="wemeet-center" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-2" value="Endpoint" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="210" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-3" value="conn" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-4" value="trans" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-6" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;arrowWidth=0.5;arrowSize=0.22;" vertex="1" parent="1">
+          <mxGeometry x="100" y="225" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-9" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;arrowWidth=0.5;arrowSize=0.22;" vertex="1" parent="1">
+          <mxGeometry x="300" y="225" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-11" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;arrowWidth=0.5;arrowSize=0.22;" vertex="1" parent="1">
+          <mxGeometry x="490" y="225" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-12" value="针对每个ep建立长链接用于收发消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-13" value="xmmp2pb" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="180" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-14" value="state" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-16" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;startWidth=22;startSize=11;width=16;endSize=6;" edge="1" parent="1" source="94uWy1UIsljqRwQZFLVF-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="220" y="330" as="sourcePoint" />
+            <mxPoint x="380" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="370" />
+              <mxPoint x="380" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-17" value="storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-18" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="400" width="30" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-20" value="同步状态和心跳相关信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="300" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-21" value="存储相关会议信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="565" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-22" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endWidth=18;endSize=5.33;" edge="1" parent="1" source="94uWy1UIsljqRwQZFLVF-14">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="530" y="370" as="sourcePoint" />
+            <mxPoint x="630" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-23" value="业务模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-24" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="94uWy1UIsljqRwQZFLVF-25" value="比如直播，文档，IM等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="280" width="140" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
